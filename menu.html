@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Menu | Catspresso Café </title>
+    <link rel="stylesheet" href="./resources/css/mainStyle.css">
+    <link rel="stylesheet" href="./resources/css/menuStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="logo"></div>
+            <div class="title">
+                <h1>Catspresso Café</h1>
+            </div>
+            <div class="menu" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        
+        <script>
+            function myFunction(x){
+                x.classList.toggle('change');
+                var x = document.getElementById('links');
+                if (x.style.display === 'block'){
+                    x.style.display = 'none';
+                } else {
+                    x.style.display = 'block';
+                }
+            }
+        </script>
+
+        <nav id="links">
+            <a href="index.html">Home</a>
+            <a href="cats.html">The Cats</a>
+            <a href="team.html">The Team</a>
+            <a href="menu.html">Café Menu</a>
+            <a href="contactForm.html">Contact</a>
+            <a href="appointment.html">Book an Appointment</a>
+        </nav>
+    </header>
+    <main>
+        <div class="menuTitle">
+            <h1>Menu</h1>
+        </div>
+        <div class="cafeMenu">
+
+            <div id="starters">
+                <h2>Starters</h2>
+                <h3>Smoked Salmon Platter - $10.99</h3>
+                <p>Slices of smoked salmon served with cream cheese, capers, red onion, and a toasted bagel</p>
+                <h3>Deviled Eggs - $6.49</h3>
+                <p>Classic deviled eggs garnished with paprika and fresh herbs</p>
+            </div>
+
+
+            <div id="mainCourses">
+                <h2>Main Courses</h2>
+                <h3>Eggs Benedict - $11.99</h3>
+                <p>Poached eggs and Canadian bacon on English muffins, topped with hollandaise sauce, served with hash
+                    browns</p>
+                <h3>Avocado Eggs Toast - $12.49</h3>
+                <p>Smashed avocado on toasted sourdough bread, topped with poached eggs, cherry tomatoes, and feta
+                    cheese, served with a side salad</p>
+                <h3>Breakfast Burrito Bowl - $10.99</h3>
+                <p>Scrambled eggs, black beans, avocado, salsa, and shredded cheese served over seasoned breakfast
+                    potatoes, topped with sour cream and cilantro</p>
+
+
+            </div>
+            <div id="coffeeCreations">
+                <h2>Coffee Creations</h2>
+                <h3>Macchiato - $3.99 </h3>
+                <p>Espresso "stained" with a dollop of frothy milk</p>
+                <h3>Cappuccino - $4.49</h3>
+                <p>Espresso with equal parts steamed milk and foam</p>
+                <h3>Latte - $4.99</h3>
+                <p>Espresso with steamed milk and a light layer of foam</p>
+                <h3>Mocha - $5.49</h3>
+                <p>Espresso with chocolate syrup and steamed milk, topped with whipped cream</p>
+                <h3>Affogato - $5.99</h3>
+                <p>A scoop of vanilla ice cream "drowned" in a shot of hot espresso</p>
+                <h3>Iced Coffee - $3.99</h3>
+                <p> Cold-brewed coffee served over ice</p>
+                <h3>Flavored Lattes - $5.99</h3>
+                <p>Vanilla, caramel, hazelnut, or seasonal flavors</p>
+            </div>
+
+            <div id="sweetEndings">
+                <h2>Sweet Endings</h2>
+                <h3>Homemade Cupcakes - $4.49</h3>
+                <p>Mini cupcakes with assorted flavors</p>
+                <h3>Berry Parfait - $5.99</h3>
+                <p> Layers of Greek yogurt, granola, and mixed berries</p>
+                <h3>Chocolate Croissant - $3.99</h3>
+                <p> Flaky croissant filled with chocolate ganache</p>
+            </div>
+
+            <div id="catTreats">
+                <h2>Cat Treats</h2>
+                <h4>*For our Feline Friends*</h4>
+                <h3>Tuna Tartare for Cats - $3.99</h3>
+                <p>Fresh tuna pieces served with a sprinkle of catnip</p>
+                <h3>Salmon Pâté - $2.99</h3>
+                <p>Creamy salmon pâté served in a cat-friendly portion</p>
+                <h3>Chicken Bits - $4.49</h3>
+                <p>Bite-sized pieces of grilled chicken, perfect for our furry friends</p>
+            </div>
+
+        </div>
+        <footer>
+            <div>
+                <span>© 2024 Breanna Lee, All Rights Reserved.<br></span>
+                <span><strong>DISCLAIMER: This is NOT a real business. 
+                        ALL photos are AI generated. This is only a project. </strong></span>
+            </div>
+        </footer>
+
+    </main>

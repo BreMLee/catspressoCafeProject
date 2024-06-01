@@ -1,0 +1,272 @@
+/* Remove the white space at the top of the header */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+    padding-top: 120px;
+
+}
+
+header {
+    border-bottom: 1px solid white;
+    min-height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 1;
+}
+
+.head{
+    display: inline-flex;
+}
+
+.logo {
+    min-height: 100px;
+    min-width: 100px;
+    background-image: url("../images/Cat.gif");
+    background-size: contain;
+    image-resolution: 400dpi;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: #FFF;
+    transition: 0.4s;
+    margin: 6px 0;
+    visibility: visible;
+}
+
+.change .bar1 {
+    transform: translate(0, 9px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -9px) rotate(45deg);
+}
+
+.menu {
+    float: right;
+    margin: 60px 20px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.title h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+header nav {
+    text-align: center;
+    font-size: 1.5rem;
+    float: right;
+
+}
+
+nav a {
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    width: 100%;
+    display: none;
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    margin: 100px;
+}
+ 
+
+a:hover {
+    color: darkgray;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+}
+
+.column {
+    flex: 70%;
+    margin: 10px;
+    height: auto;
+    width: auto;
+
+}
+
+#cafePicture {
+    background-image: url("../images/landingPageCat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+}
+
+.missionStatement {
+    text-align: center;
+    margin: 80px 0;
+    overflow: hidden;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.4;
+
+}
+
+.missionStatement h1 {
+    font-size: 3.5rem;
+
+}
+
+.missionStatement h4 {
+    font-size: 1.15rem;
+    padding: 10px;
+    font-weight: 400;
+}
+
+
+.gallery {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.cafeGallery {
+    margin: 20px;
+    display: flex;
+    height: 30rem;
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+
+.cafeGallery>div {
+    flex: 1;
+    border-radius: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.cafeGallery>div:hover {
+    flex: 4;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        margin: 0 auto;
+        min-height: 800px;
+    }
+
+    #cafePicture {
+        background-attachment: fixed;
+    }
+
+    .missionStatement {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .missionStatement h1 {
+        font-size: 2rem;
+    }
+
+    .missionStatement h4 {
+        font-size: 1rem;
+    }
+
+    .cafeGallery {
+        flex-direction: column;
+        height: 60rem;
+    }
+
+    .cafeGallery>div {
+        flex: 1;
+        background-size: 100%;
+
+    }
+
+    .cafeGallery>div:hover {
+        flex: 2;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .title h1{
+        font-size: 2rem;
+    }
+   
+    .gallery h1 {
+        font-size: 2.5rem;
+    }
+
+    header{
+        justify-content: center;
+        align-content: center;
+        top: 0;
+    }
+
+    footer{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (orientation: landscape) {
+    header{
+        position: absolute;
+        min-height: 100px;
+    }
+
+    .title h1{
+        font-size: 2.5rem;
+    }
+
+    body{
+        padding-top: 90px;
+    }
+
+}

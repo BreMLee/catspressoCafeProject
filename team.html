@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Team | Catspresso Café </title>
+    <link rel="stylesheet" href="./resources/css/mainStyle.css">
+    <link rel="stylesheet" href="./resources/css/teamStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="logo"></div>
+            <div class="title">
+                <h1>Catspresso Café</h1>
+            </div>
+            <div class="menu" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        
+        <script>
+            function myFunction(x){
+                x.classList.toggle('change');
+                var x = document.getElementById('links');
+                if (x.style.display === 'block'){
+                    x.style.display = 'none';
+                } else {
+                    x.style.display = 'block';
+                }
+            }
+        </script>
+
+        <nav id="links">
+            <a href="index.html">Home</a>
+            <a href="cats.html">The Cats</a>
+            <a href="team.html">The Team</a>
+            <a href="menu.html">Café Menu</a>
+            <a href="contactForm.html">Contact</a>
+            <a href="appointment.html">Book an Appointment</a>
+        </nav>
+    </header>
+    <div class="pageTitle">
+        <h1>Our Team</h1>
+    </div>
+    
+    <div class="container">
+        <div class="box">
+            <div class="thumbnail sarah"></div>
+            <div class="content">
+                <h2>Name</h2>
+                <p>Job</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="thumbnail ava"></div>
+            <div class="content">
+                <h2>Name</h2>
+                <p>Job</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="thumbnail colin">
+            </div>
+            <div class="content">
+                <h2>Name</h2>
+                <p>Job</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="thumbnail hannah"></div>
+            <div class="content">
+                <h2>Name</h2>
+                <p>Job</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="thumbnail damion"></div>
+            <div class="content">
+                <h2>Name</h2>
+                <p>Job</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span>© 2024 Breanna Lee, All Rights Reserved.<br></span>
+        <span><strong>DISCLAIMER: This is NOT a real business.
+                ALL photos are AI generated. This is only a project. </strong></span>
+
+    </footer>
+</body>
+
+</html>
+
+<!--
+            <div class="teamGrid">
+                <div class="polaroid">
+                    <img src="../CoffeeCompany/resources/images/SarahBarista.jpg">
+                    <h2>Sarah</h2>
+                    <h3>Owner</h3>
+                </div>
+                <div class="polaroid">
+                    <img src="../CoffeeCompany/resources/images/DamionBarista.jpg">
+                    <h2>Damion</h2>
+                    <h3>Caretaker/Barista</h3>
+                </div>
+                <div class="polaroid">
+                    <img src="../CoffeeCompany/resources/images/MeredithBarista.jpg">
+                    <h2>Meredith</h2>
+                    <h3>Caretaker/Barista</h3>
+                </div>
+                <div class="polaroid">
+                    <img src="../CoffeeCompany/resources/images/JohnBarista.jpg">
+                    <h2>John</h2>
+                    <h3>Caretaker/Barista</h3>
+                </div>
+                <div class="polaroid">
+                    <img src="../CoffeeCompany/resources/images/JackieBarista.jpg">
+                    <h2>Jackie</h2>
+                    <h3>Adoption</h3>
+                </div>
+            </div>-->

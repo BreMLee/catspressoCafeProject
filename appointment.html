@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Appointment | Catspresso Café</title>
+    <link rel="stylesheet" href="./resources/css/mainStyle.css">
+    <link rel="stylesheet" href="./resources/css/appointment.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+</head>
+
+<body class="appointmentBody">
+    <header>
+        <div class="head">
+            <div class="logo"></div>
+            <div class="title">
+                <h1>Catspresso Café</h1>
+            </div>
+            <div class="menu" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        
+        <script>
+            function myFunction(x){
+                x.classList.toggle('change');
+                var x = document.getElementById('links');
+                if (x.style.display === 'block'){
+                    x.style.display = 'none';
+                } else {
+                    x.style.display = 'block';
+                }
+            }
+        </script>
+
+        <nav id="links">
+            <a href="index.html">Home</a>
+            <a href="cats.html">The Cats</a>
+            <a href="team.html">The Team</a>
+            <a href="menu.html">Café Menu</a>
+            <a href="contactForm.html">Contact</a>
+            <a href="appointment.html">Book an Appointment</a>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="box middle">
+                <div class="appointmentForm">
+
+                    <h1>Book an Appointment</h1>
+                    <div class="textBox">
+                        <label>Name: </label>
+                        <input type="text" name="" value="">
+                    </div>
+                    <div class="textBox">
+                        <label>Email: </label>
+                        <input type="text" name="" value="">
+                    </div>
+                    <div class="textBox">
+                        <label>Phone Number: </label>
+                        <input type="tel" name="" value="">
+                    </div>
+                    <div class="textBox">
+                        <label>Select a Date: </label>
+                        <input type="date" name="" value="">
+                    </div>
+                    <div class="textBox">
+                        <label>Select a Time: </label>
+                        <select name="time">
+                            <option value="">--SELECT--</option>
+                            <option value="">10:00AM</option>
+                            <option value="">10:30AM</option>
+                            <option value="">11:00AM</option>
+                            <option value="">11:30AM</option>
+                            <option value="">12:00PM</option>
+                            <option value="">12:30PM</option>
+                            <option value="">1:00PM</option>
+                            <option value="">1:30PM</option>
+                            <option value="">2:00PM</option>
+                            <option value="">2:30PM</option>
+                            <option value="">3:00PM</option>
+                            <option value="">3:30PM</option>
+                            <option value="">4:00PM</option>
+                        </select>
+                    </div>
+                    <div class="people">
+                        <label>Number of People:<br></label>
+                        <input type="radio" name="number" value="" checked="checked">1
+                        <input type="radio" name="number" value="">2
+                        <input type="radio" name="number" value="">3
+                        <input type="radio" name="number" value="">4
+                        <input type="radio" name="number" value="">5
+                    </div>
+                    <a class="submitButton">Submit</a>
+                </div>
+            </div>
+            
+        </div>
+        <footer>
+            <div class="content">
+                <span class="copyright">© 2024 Breanna Lee, All Rights Reserved.<br></span>
+                <span class="disclaimer"><strong>DISCLAIMER: This is NOT a real business. 
+                        ALL photos are AI generated. This is only a project.<br> </strong></span>
+                <a href="https://www.artstation.com/artwork/wJNPOO">Gif Artist: Darius Anton</a>
+            </div>
+        </footer>
+        
+
+    </section>
+</body>
+
+</html>

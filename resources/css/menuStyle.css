@@ -1,0 +1,84 @@
+/* Remove the white space at the top of the header */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    padding: 75px;
+    background-image: url(../images/coffeeBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-resolution: 300dpi;
+
+}
+.menuTitle{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: #000;
+    padding-top: 50px;
+    
+}
+
+.cafeMenu{
+    column-count: 3;
+    column-rule: 2px dashed #000;
+    text-align: left;
+    line-height: 1.15;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5%;
+    padding: 50px;
+    
+}
+
+.cafeMenu h2{
+    font-size: 1.75rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cafeMenu h2, h4{
+    text-align: center;
+    line-height: 0.75;
+}
+
+footer{
+    color: #FFF;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 720px){
+    .cafeMenu{
+        column-count: 1;
+        padding: 15px;
+    }
+
+    .menuTitle{
+        font-size: 1.5rem;
+        padding-top: 100px;
+        
+    }
+
+    body{
+        padding: 25px;
+        background-image: url('../images/coffeeBackground1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+
+
+
+
+
+
+}

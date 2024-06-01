@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cat Café | Love & Adopt </title>
+    <link rel="stylesheet" href="./resources/css/mainStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="logo"></div>
+            <div class="title">
+                <h1>Catspresso Café</h1>
+            </div>
+            <div class="menu" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+
+
+        <script>
+            function myFunction(x) {
+                x.classList.toggle('change');
+                var x = document.getElementById('links');
+                if (x.style.display === 'block') {
+                    x.style.display = 'none';
+                } else {
+                    x.style.display = 'block';
+                }
+            }
+        </script>
+
+        <nav id="links">
+            <a href="index.html">Home</a>
+            <a href="cats.html">The Cats</a>
+            <a href="team.html">The Team</a>
+            <a href="menu.html">Café Menu</a>
+            <a href="contactForm.html">Contact</a>
+            <a href="appointment.html">Book an Appointment</a>
+        </nav>
+    </header>
+
+    <div class="row">
+        <div id="cafePicture" class="column"></div>
+        <div class="missionStatement column">
+            <h1>About Us</h1>
+            <h4>The Catspresso Café welcomes both our esteemed guests and beloved furry companions.
+                Our café operates during regular business hours, and to ensure a delightful experience with our feline
+                friends, appointments are necessary.
+                All adoption procedures contribute directly to supporting local animal shelters.</h4>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <h1>Gallery</h1>
+    </div>
+    <div class="cafeGallery">
+        <div style="background-image: url('../CoffeeCompany/resources/images/coffeeFlight.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/CatOnTable.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/catInCoffee');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/Cats.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/OutsideCafe');"></div>
+    </div>
+    <div class="cafeGallery">
+        <div style="background-image: url('../CoffeeCompany/resources/images/CatsWithCoffee.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/Cup.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/CuteCat.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/Products.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/CafeArea.jpg');"></div>
+    </div>
+    <div class="cafeGallery">
+        <div style="background-image: url('../CoffeeCompany/resources/images/Table.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/CloseUp.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/Cupcakes.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/Bakery.jpg');"></div>
+        <div style="background-image: url('../CoffeeCompany/resources/images/CafeBar.jpg');"></div>
+    </div>
+    <footer>
+        <div>
+            <span>© 2024 Breanna Lee, All Rights Reserved.<br></span>
+            <span><strong>DISCLAIMER: This is NOT a real business.
+                    ALL photos are AI generated. This is only a project. </strong></span>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
