@@ -6,12 +6,6 @@ html{
     font-size: 16px;
 }
 
-body{
-    height: 1000px;
-    padding: 150px;
-    
-}
-
 .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -21,9 +15,8 @@ body{
 }
 
 .box{
-    height: 750px;
+    margin: 50px;
     border-radius: 5%;
-    margin: 0 100px;
 }
 
 .box.left{
@@ -31,15 +24,15 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
+    padding: 30px;
     padding-right: 180px;
     width: 120%;
     
 }
 
-.box.right{
+.box.right{ 
     background-color: #483C32;
-    width: 80%;
+    width: 90%;
     
 }
 
@@ -47,10 +40,9 @@ body{
     background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
     padding: 25px;
-    height: 710px;
+    min-height: 600px;
     border-radius: 5%;
     font-family: 'Courier New', Courier, monospace;
-    
 }
 
 form{
@@ -137,9 +129,62 @@ table{
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1024px){
     .container{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    
+
+    .box.left{
+        padding-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .box{
+        min-height: 500px;
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 5%;
+        
+    }
+
+    .box.left{
+        padding: 15px;
+    }
+
+    .box.right{
+        margin: 20px auto;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 480px){
+    .box{
+        min-height: 500px;
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 0%;
+        
+    }
+
+    .box.left{
+        padding: 15px;
+    }
+
+    .box.right{
+        margin: 20px auto;
+    }
+
+    .contactForm{
+        border-radius: 0%;
+    }
+
+
+    
 
 }

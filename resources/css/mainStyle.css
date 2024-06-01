@@ -125,10 +125,8 @@ a:hover {
 }
 
 #cafePicture {
-    background-image: url("../images/landingPageCat.jpg");
-    background-repeat: no-repeat;
+    background: url('../images/landingPageCat.jpg') no-repeat center;
     background-size: cover;
-    background-position: center;
     flex-direction: column;
 
 }
