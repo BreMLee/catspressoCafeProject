@@ -8,9 +8,7 @@ html {
 }
 
 body {
-    background-color: white;
     padding-top: 120px;
-
 }
 
 header {
@@ -78,6 +76,8 @@ header {
     font-size: 3rem;
 }
 
+
+
 header nav {
     text-align: center;
     font-size: 1.5rem;
@@ -113,15 +113,19 @@ a:hover {
 .row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: black; 
+    background-color: black;
+    min-height: 300px; 
+    
 }
 
 .column {
-    margin: 10px;
+    padding: 10px;
 }
 
 #cafePicture {
     background: url('../images/landingPageCat.jpg') no-repeat center;
+    
+    
 }
 
 .missionStatement {
@@ -193,12 +197,12 @@ footer {
     .row {
         grid-template-columns: 1fr;
         grid-auto-rows: 1fr;
-        margin: 0 auto;
-        min-height: 800px;
     }
 
     #cafePicture {
         background-attachment: fixed;
+        background-size: auto;
+ 
     }
 
     .missionStatement {
@@ -251,6 +255,7 @@ footer {
         font-size: 1rem;
     }
 
+    
 }
 
 @media only screen and (orientation: landscape) {
