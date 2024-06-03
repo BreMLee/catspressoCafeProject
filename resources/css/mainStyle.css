@@ -191,7 +191,7 @@ footer {
         background-size: cover;
     }
 
-    
+
 
 }
 
@@ -199,11 +199,6 @@ footer {
     .row {
         grid-template-columns: 1fr;
         grid-auto-rows: 1fr;
-    }
-
-    #cafePicture {
-        background-size: auto;
- 
     }
 
     .missionStatement {
