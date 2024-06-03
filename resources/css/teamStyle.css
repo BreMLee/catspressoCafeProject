@@ -35,7 +35,7 @@ body{
 
 .thumbnail{
     flex: 1 1 200px;
-    background-color: blue;
+    background-color: black;
     height: 250px;
     border-radius: 5%;
 }
@@ -45,8 +45,12 @@ body{
     text-align: center;
 }
 
-.sarah{
+.content h2, .content p{
+    font-family: 'Courier New', Courier, monospace;
 
+}
+
+.sarah{
     background: url('../images/SarahBarista.jpg') no-repeat center;
     background-size: cover;
 }
