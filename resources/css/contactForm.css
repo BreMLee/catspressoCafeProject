@@ -173,4 +173,8 @@ table{
         border-radius: 0%;
     }
 
+    .note{
+        padding: 0 30px;
+    }
+
 }
