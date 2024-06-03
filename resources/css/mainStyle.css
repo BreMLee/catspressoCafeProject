@@ -69,6 +69,7 @@ header {
 
 }
 
+
 .title h1{
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -100,14 +101,15 @@ nav {
     width: 100%;
     display: none;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000;
     position: absolute;
-    margin: 100px;
+    margin: 0 auto;
+    
 }
  
 
 a:hover {
-    color: darkgray;
+    text-decoration: underline;
 }
 
 .row {
