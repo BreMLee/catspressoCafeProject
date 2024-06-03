@@ -72,6 +72,7 @@ body{
     width: 120px;
     border-radius: 50%;
     background: black;
+    padding: 2px;
     
 
 }
@@ -126,7 +127,6 @@ footer{
     .wrapper .cardBack img{
         height: 110px;
         width: 110px;
-        padding: 2px;
     }
 
     .info{
