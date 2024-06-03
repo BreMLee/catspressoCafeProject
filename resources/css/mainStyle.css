@@ -181,7 +181,6 @@ a:hover {
 footer {
     padding: 20px;
     text-align: center;
-    font-size: 1.25rem;
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.5;
 }
@@ -246,11 +245,6 @@ footer {
         align-content: center;
         top: 0;
     }
-
-    footer{
-        font-size: 1rem;
-    }
-
     
 }
 
@@ -266,10 +260,6 @@ footer {
 
     body{
         padding-top: 100px;
-    }
-
-    footer{
-        font-size: 1rem;
     }
 
 }
