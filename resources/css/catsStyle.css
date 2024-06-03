@@ -69,9 +69,11 @@ body{
 }
 
 .wrapper .cardBack img{
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     background: black;
-    object-fit: cover;
+    
 
 }
 
@@ -178,5 +180,14 @@ footer{
     footer{
         font-size: 0.85rem;
     }
+
+}
+
+@media screen and (orientation: landscape){
+    footer{
+        font-size: 1rem;
+    }
+
+    
 
 }
