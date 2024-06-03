@@ -25,8 +25,8 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
-    padding-right: 180px;
     width: 120%;
+   
     
 }
 
@@ -34,14 +34,16 @@ html{
     background-color: #483C32;
     width: 90%;
     
+    
 }
 
 .contactForm{
     background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
     padding: 25px;
-    min-height: 600px;
+    min-height: 900px;
     border-radius: 5%;
+    width: 82%;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -66,7 +68,7 @@ form{
     background: none;
     outline: none;
     font-size: 18px;
-    margin-top: 6px;
+    margin: 25px;
     resize: none;
     font-family: 'Times New Roman', Courier, monospace;
 }
@@ -121,13 +123,16 @@ table{
 }
 
 .note{
-    padding: 0 30px;
+    text-align: center;
+    padding: 0 70px;
 }
 
 .location, .phone, .hours{
     line-height: 1;
     padding-bottom: 10px;
 }
+
+
 
 @media screen and (max-width: 1024px){
     .container{
@@ -138,48 +143,34 @@ table{
         padding-right: 30px;
     }
 
-}
-
-@media screen and (max-width: 768px){
     .box{
         min-height: 500px;
         max-width: 100%;
-        margin: 0 auto;
+        margin: 20px auto;
         border-radius: 5%;
         
     }
 
-    .box.left{
-        padding: 15px;
-    }
-
-    .box.right{
-        margin: 20px auto;
+    .contactForm{
+        width: 100%;
     }
 
 }
 
-@media screen and (max-width: 480px){
-    .box{
-        min-height: 500px;
-        max-width: 100%;
-        margin: 0 auto;
-        border-radius: 0%;
-    }
+@media screen and (max-width: 768px){
 
     .box.left{
         padding: 15px;
     }
+}
 
-    .box.right{
-        margin: 20px auto;
+@media screen and (max-width: 480px){
+    .box{
+        border-radius: 0%;
     }
 
     .contactForm{
         border-radius: 0%;
     }
-
-
-    
 
 }
