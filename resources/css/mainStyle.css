@@ -227,7 +227,7 @@ footer {
     }
 
     .cafeGallery>div:hover {
-        flex: 3;
+        flex: 2;
     }
 }
 
