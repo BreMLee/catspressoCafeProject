@@ -18,6 +18,10 @@ body{
     
 }
 
+#ourCats h1{
+    font-size: 3.5rem;
+}
+
 #ourCats p{
     font-size: 1.5rem;
     padding-bottom: 10px;
@@ -110,8 +114,8 @@ footer{
 
 
 @media screen and (max-width: 1024px){
-    #ourCats{
-        font-size: 1.3rem;
+    #ourCats h1{
+        font-size: 2.5rem;
     }
 
     #ourCats p{
@@ -136,8 +140,8 @@ footer{
         font-size: 0.75rem;
     }
 
-    #ourCats{
-        font-size: 1.2rem;
+    #ourCats h1{
+        font-size: 2rem;
     }
 
     #ourCats p{
