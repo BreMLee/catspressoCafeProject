@@ -102,4 +102,8 @@ section h1{
     .box.middle{
         width: 90%;
     }
+
+    .appointmentForm{
+        border-radius: 0%;
+    }
 }
