@@ -10,14 +10,10 @@ html{
     display: grid;
     align-content: center;
     justify-content: center;
-    background-image: url('../images/gifgit.gif');
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('../images/gifgit.gif') no-repeat center;
     background-size: cover;
-    min-height: 1000px;
+    min-height: 1100px;
     width: 100%;
-    
-    
 }
 
 .box{
@@ -28,9 +24,7 @@ html{
 
 .box.middle{
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     width: 50%;
     
     
@@ -45,8 +39,6 @@ html{
     border-radius: 5%;
     margin: 15px auto;
     font-family: 'Courier New', Courier, monospace;
-
-    
 }
 
 
@@ -99,15 +91,10 @@ section h1{
 }
 
 
-@media screen and (max-width: 768px){
-    
-
+@media screen and (max-width: 1024px){
     .box.middle{
-        width: 70%;
+        width: 80%;
     }
-
-    
-    
 
 }
 
@@ -115,6 +102,4 @@ section h1{
     .box.middle{
         width: 90%;
     }
-
-
 }

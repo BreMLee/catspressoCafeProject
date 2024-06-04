@@ -24,6 +24,7 @@ body{
 }
 
 .container{
+    min-height: 800px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -104,7 +105,9 @@ body{
 
 footer{
     color: white;
+    position: relative;
 }
+
 
 @media screen and (max-width: 1024px){
     #ourCats{

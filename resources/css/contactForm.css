@@ -20,9 +20,7 @@ html{
 }
 
 .box.left{
-    background-image: url('../images/contactCat.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('../images/contactCat.jpg') no-repeat center;
     background-size: cover;
     padding: 30px;
     width: 120%;

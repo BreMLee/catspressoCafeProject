@@ -78,8 +78,6 @@ header {
     
 }
 
-
-
 header nav {
     text-align: center;
     font-size: 1.5rem;
@@ -105,9 +103,7 @@ nav {
     background-color: #000;
     position: absolute;
     margin: 0 auto;
-    
 }
- 
 
 a:hover {
     text-decoration: underline;
@@ -186,7 +182,7 @@ footer {
     padding: 20px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 @media only screen and (max-width: 1024px) {

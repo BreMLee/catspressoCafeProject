@@ -8,14 +8,17 @@ html{
 }
 
 body{
-    padding: 75px;
-    background-image: url(../images/coffeeBackground.jpg);
-    background-position: center;
+    padding: 120px;
+    background: url(../images/coffeeBackground.jpg) no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
-    image-resolution: 300dpi;
 
 }
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
 .menuTitle{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -65,7 +68,7 @@ footer{
     }
 
     body{
-        padding: 50px;
+        padding: 65px;
     }
 
     
