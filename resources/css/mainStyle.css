@@ -75,6 +75,7 @@ header {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     font-size: 3rem;
+    
 }
 
 
@@ -126,6 +127,7 @@ a:hover {
 
 #cafePicture {
     background: url('../images/landingPageCat.jpg') no-repeat center;
+    background-size: cover;
     
     
 }
@@ -187,12 +189,10 @@ footer {
     line-height: 1.5;
 }
 
-@media only screen and (min-width: 1024px) {
-    #cafePicture{
-        background-size: cover;
+@media only screen and (max-width: 1024px) {
+    .gallery{
+        font-size: 1.5rem;
     }
-
-
 
 }
 
@@ -217,7 +217,7 @@ footer {
 
     .cafeGallery {
         flex-direction: column;
-        height: 60rem;
+        height: 40rem;
     }
 
     .cafeGallery>div {
@@ -227,14 +227,12 @@ footer {
     }
 
     .cafeGallery>div:hover {
-        flex: 2;
+        flex: 3;
     }
-
-    
-
 }
 
 @media only screen and (max-width: 480px) {
+
 
     .title h1{
         font-size: 2rem;
