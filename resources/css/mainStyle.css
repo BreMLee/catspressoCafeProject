@@ -221,14 +221,9 @@ footer {
     }
 
     .cafeGallery>div {
-        flex: 1;
         background-size: 100%;
-
     }
 
-    .cafeGallery>div:hover {
-        flex: 2;
-    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -246,6 +241,9 @@ footer {
         justify-content: center;
         align-content: center;
         top: 0;
+    }
+    .cafeGallery>div:hover {
+        flex: 2;
     }
     
 }
